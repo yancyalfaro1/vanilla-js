@@ -1,18 +1,17 @@
-## Ejercicio 3
-
-1. Realice el ejercicio en el archivo: ejercicio3.js
-2. Ejecute las pruebas con 'npm test' para garantizar que el código este funcionando correctamente.
+## Ejercicio 5
 
 ### Ejercicios:
-1. Escribir un código que modifique el HTML y cada segundo muestre la hora en un elemento de HTML.
-<br />
-<br /> 
-2. Escribir una función llamada obtenerUsuarios utilizando promesas.
-   * En el package.json existe un script para levantar un servidor local. Ejecutelo y navegue a http://localhost:3000/users
-   * Utilizando la función Fetch, debe llamar al url http://localhost:3000/users y obtener la lista de usuarios.
-   * Una vez obtenga la lista de usuarios, imprimalos en la consola.
-   * Invoque la función para que se ejecute el llamado al servidor.
-<br />
-<br />
-3. Escribir una función llamada obtenerUsuarios.
-   * Modificar la función para que utilice async/await
+1. Defina un archivo llamado calculadora.js dentro de la carpeta src
+   * Exporte un objeto calculadora que tenga los siguientes métodos:
+     * Sumar, restar, dividir, multiplicar.
+2. Dentro del index.js importe la calculadora.
+   * Defina una función que se llame calcular:
+     * Recibe tres parametros (operacion, numero1, numero2)
+       * Dada la operación ejecuta la función expuesta en calculadora.js
+
+
+### Ejemplos
+```
+   calcular('sumar', 1, 2) // 3
+   calcular('dividir', 4, 2) // 2
+```
