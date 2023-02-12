@@ -4,20 +4,15 @@
 2. Ejecute las pruebas con 'npm test' para garantizar que el código este funcionando correctamente.
 
 ### Ejercicios:
-1. Escribir una función llamada clonarArreglo.
-   * Dado un arreglo, retorna una arreglo nuevo con todos los elementos del arreglo original.
+1. Escribir un código que modifique el HTML y cada segundo muestre la hora en un elemento de HTML.
 <br />
 <br /> 
-2. Escribir una función llamada clonarObjeto.
-   * Dado un objeto, retorna un objeto nuevo con todos los elementos del objeto original.
+2. Escribir una función llamada obtenerUsuarios utilizando promesas.
+   * En el package.json existe un script para levantar un servidor local. Ejecutelo y navegue a http://localhost:3000/users
+   * Utilizando la función Fetch, debe llamar al url http://localhost:3000/users y obtener la lista de usuarios.
+   * Una vez obtenga la lista de usuarios, imprimalos en la consola.
+   * Invoque la función para que se ejecute el llamado al servidor.
 <br />
-<br /> 
-3. Escribir una función llamada sumar.
-   * Debe recibir N parametros (rest operator)
-   * Retorna la suma de todos los parametros
 <br />
-<br /> 
-4. Escribir una función llamada saludar.
-   * Debe recibir un parametro llamado nombre
-   * El valor por defecto para el parametro nombre es "Desconocido"
-   * La función retorna el mensaje "Hola <nombre>"
+3. Escribir una función llamada obtenerUsuarios.
+   * Modificar la función para que utilice async/await
